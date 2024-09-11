@@ -5,14 +5,23 @@
 @media screen and (min-width:768px) and (max-width: 992px) {
 
     section {
-        width: 600px;
-        height: 700px;
+        width: 700px;
+        height: 450px;
     }
     
     #imagem {
-        height: 350px;
+        background-position: right;
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px
     }
     
+    #form {
+        float: right;
+        width: 60%;
+    }
+
     #form h1 {
         font-size: 2em
     }
@@ -24,9 +33,35 @@
 
 
 
-@media screen and (min-width: 992px) {
+@media screen  and (min-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, rgb(211, 190, 2),rgb(200, 181, 0), rgb(190, 147, 0));
+    }
+
+    section {
+        width: 950px;
+        height: 550px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 10px 10px 0px
+    }
+
+    #form {
+        float: right;
+        width: 50%;
+    }
+
+    #form h1 {
+        font-size: 2em
+    }
+    
+    #form p {
+        font-size: 1.4em;
+
     }
 
 }
