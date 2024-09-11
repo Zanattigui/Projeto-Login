@@ -19,9 +19,9 @@ html {
 section {
     background-color: white;
     width: 42vw;
-    height: 85vw;
+    height: 75vh;
     margin: auto;
-    margin-top: 20vw;
+    margin-top: 12vh;
     border-radius: 10px;
 }
 
