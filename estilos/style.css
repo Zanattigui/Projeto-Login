@@ -13,14 +13,33 @@ cinza
 }
 html {
     background-color: rgb(68, 68, 68);
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-    border: 2px solid purple;
-    width: 50vw;
-    height: 80vw;
+    background-color: white;
+    width: 42vw;
+    height: 85vw;
     margin: auto;
     margin-top: 20vw;
+    border-radius: 10px;
+}
+
+#imagem {
+    background-image: url(../imagens/caminhao-1000px.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 225px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+#form h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#form p {
+    font-size: 0.8em;
+    padding: 5px 5px 0px 5px;
 }
