@@ -62,3 +62,66 @@ section {
     padding: 5px 5px 0px 5px;
     text-align: center;
 }
+
+form {
+    margin: 3px auto 0px auto;
+    display: block;
+}
+
+.material-symbols-outlined {
+    font-weight: bolder;
+  
+}
+
+.email-senha{
+    background-color: rgb(253, 253, 253);
+    padding: 7px;
+    border-radius: 10px;
+    width: 88%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.email-senha:hover {
+    background-color: rgb(237, 255, 255);
+
+}
+
+.botao-entrar {
+    display: block;
+    margin: 8px auto 5px auto;
+    width: 95%;
+    height: 34px;
+    border-radius: 5px;
+    background-color: rgb(88, 109, 103);
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.botao-entrar:hover {
+    background-color: rgb(106, 131, 124);
+    cursor: pointer;
+}
+
+.botao-esqueci {
+    display: block;
+    margin: 8px auto 5px auto;
+    border: 2px solid black;
+    width: 95%;
+    padding-left: 32px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1em;
+    height: 34px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+
+.botao-esqueci:hover {
+   background-color: rgb(237, 255, 255);
+}
