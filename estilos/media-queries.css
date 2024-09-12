@@ -29,6 +29,14 @@
     #form p {
         font-size: 1.4em;
     }
+
+    form {
+        margin-top: 10%;
+    }
+
+    .campo {
+        margin-top:8px;
+    }
 }
 
 
@@ -62,6 +70,15 @@
     #form p {
         font-size: 1.4em;
 
+    }
+
+    form {
+        margin-top: 10%;
+    }
+
+    .campo {
+        margin-top:8px;
+        width: 100%;
     }
 
 }
