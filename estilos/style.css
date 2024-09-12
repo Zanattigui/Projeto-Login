@@ -91,6 +91,7 @@ form {
     margin: 8px auto 5px auto;
     width: 95%;
     height: 34px;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(88, 109, 103);
     text-align: center;
