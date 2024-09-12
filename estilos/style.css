@@ -70,7 +70,7 @@ form {
 
 .material-symbols-outlined {
     font-weight: bolder;
-  
+    color: black;
 }
 
 .email-senha{
@@ -79,6 +79,7 @@ form {
     border-radius: 10px;
     width: 88%;
     border: 2px solid rgb(0, 0, 0);
+    transform: translateY(-5px);
 }
 
 .email-senha:hover {
@@ -94,8 +95,8 @@ form {
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(88, 109, 103);
-    text-align: center;
     color: white;
+    text-align: center;
     font-size: 1em;
     font-weight: bold;
 }
@@ -107,14 +108,18 @@ form {
 
 .botao-esqueci {
     display: block;
+    height: 34px;
+    width: 95%;
     margin: 8px auto 5px auto;
     border: 2px solid black;
-    width: 95%;
-    padding-left: 32px;
+    padding-left: 21px;
     text-align: center;
     border-radius: 5px;
     font-size: 1em;
-    height: 34px;
+}
+
+.botao-esqueci i {
+    transform: translateY(7px);
 }
 
 a {
